@@ -1,4 +1,24 @@
 @import 'tailwindcss';
+@plugin 'tailwindcss-animate';
+
+/* ---- shadcn/ui compatible CSS variables ---- */
+@layer base {
+  :root {
+    --background: 40 33% 96%;
+    --foreground: 20 29% 10%;
+    --muted: 36 20% 90%;
+    --muted-foreground: 30 10% 45%;
+    --ring: 40 35% 60%;
+  }
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-ring: hsl(var(--ring));
+}
 
 @theme {
   /* Palet monokrom earthy — krem, tinta hangat, kuningan tua */

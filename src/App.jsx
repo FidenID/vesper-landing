@@ -2,6 +2,7 @@ import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Showcase from './components/Showcase.jsx'
+import CoverflowSection from './components/CoverflowSection'
 import Notes from './components/Notes.jsx'
 import Testimonial from './components/Testimonial.jsx'
 import CTA from './components/CTA.jsx'
@@ -15,6 +16,7 @@ export default function App() {
         <Hero />
         <About />
         <Showcase />
+        <CoverflowSection />
         <Notes />
         <Testimonial />
         <CTA />
